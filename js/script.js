@@ -1,6 +1,5 @@
-document.querySelectorAll('li a')
+document.querySelectorAll('nav a')
   .forEach(e => e.addEventListener('click', _ => change(e.dataset.id)))
-
 
 function change(n) {
   let panels = document.querySelectorAll('main div')
